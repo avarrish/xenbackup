@@ -12,9 +12,13 @@ https://github.com/xapi-project/xen-api/blob/master/scripts/examples/python/XenA
 You have to configurate the script with the following settings:
 
 server='192.168.0.2' # The Pool Master !
+
 user='root'
+
 password='XXXXXXXXXXXX'
+
 path='/path/to/your/backups' # Path to Backup XVA files
+
 bkCount=2 # Number of Backups to store
 
 If you change the pool master the script locates the new master. If the master is completly offline the script will not work !
